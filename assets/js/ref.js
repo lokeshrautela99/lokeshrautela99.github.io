@@ -1,28 +1,28 @@
 let genZzzClothing = () => {
   window.open(
-    "https://github.com/lokeshrautela25",
+    "https://github.com/lokeshrautela99/GenZzz-Clothing",
     "_blank"
   );
 };
 
 let shopSphere = () => {
-  window.open("https://github.com/lokeshrautela25", "_blank");
+  window.open("https://github.com/lokeshrautela99", "_blank");
 };
 
 let bewakoof = () => {
-  window.open("https://github.com/lokeshrautela25", "_blank");
+  window.open("https://github.com/lokeshrautela99", "_blank");
 };
 
 let codeFlux = () => {
-  window.open("https://github.com/lokeshrautela25", "_blank");
+  window.open("https://github.com/lokeshrautela99", "_blank");
 };
 
 let youTube = () => {
-  window.open("https://github.com/lokeshrautela25", "_blank");
+  window.open("https://github.com/lokeshrautela99", "_blank");
 };
 
 let starWars = () => {
-  window.open("https://github.com/lokeshrautela25", "_blank");
+  window.open("https://github.com/lokeshrautela99", "_blank");
 };
 
 
