@@ -6,7 +6,7 @@ let genZzzClothing = () => {
 };
 
 let shopSphere = () => {
-  window.open("https://github.com/lokeshrautela99", "_blank");
+  window.open("https://github.com/lokeshrautela99/ShopSphere-E-Commerce", "_blank");
 };
 
 let bewakoof = () => {
