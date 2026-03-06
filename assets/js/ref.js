@@ -14,7 +14,7 @@ let bewakoof = () => {
 };
 
 let codeFlux = () => {
-  window.open("https://github.com/lokeshrautela99", "_blank");
+  window.open("https://github.com/lokeshrautela99/Blog-Website", "_blank");
 };
 
 let youTube = () => {
