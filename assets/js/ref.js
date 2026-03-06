@@ -10,7 +10,7 @@ let shopSphere = () => {
 };
 
 let bewakoof = () => {
-  window.open("https://github.com/lokeshrautela99", "_blank");
+  window.open("https://github.com/lokeshrautela99/Bewakoof-Clone", "_blank");
 };
 
 let codeFlux = () => {
