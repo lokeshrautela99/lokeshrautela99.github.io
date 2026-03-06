@@ -1,12 +1,1097 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Lokesh Rautela Portfolio</h1>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lokesh Rautela</title>
+
+    <!--
+    - favicon
+  -->
+    <link
+      rel="shortcut icon"
+      href="./assets/Skills-Logos/coding.png"
+      type="image/x-icon"
+    />
+
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
+    />
+  </head>
+
+  <body>
+    <!--
+    - #MAIN
+  -->
+
+    <main>
+      <!--- #SIDEBAR-->
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img
+              src="./assets/images/Animated Profile  Pic.jpeg"
+              alt="Lokesh Rautela"
+              width="80"
+            />
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="Richard hanrick">Lokesh Rautela</h1>
+
+            <p class="title">Full Stack Web Developer</p>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
+
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
+
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+
+                <a href="mailto:pranshubisht9@gmail.com" class="contact-link"
+                  >lokeshrautela99@gmail.com</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Phone</p>
+
+                <a href="tel:+917522023037" class="contact-link"
+                  >+91 9650604682</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="calendar-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Birthday</p>
+
+                <time datetime="2000-08-12">October 25, 1999</time>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+
+                <address>New Delhi, INDIA</address>
+              </div>
+            </li>
+          </ul>
+
+          <div class="separator"></div>
+
+          <ul class="social-list">
+            <li class="social-item">
+              <a
+                href="https://www.linkedin.com/in/lokesh-rautela-19554536b/"
+                class="social-link"
+                target="_blank"
+              >
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a
+                href="https://github.com/lokeshrautela99"
+                class="social-link"
+                target="_blank"
+              >
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a
+                href="https://www.instagram.com/lokesh__rautela/"
+                target="_blank"
+                class="social-link"
+              >
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+      <!-- SideBar closed here -->
+
+      <!--- #main-content -->
+
+      <div class="main-content">
+        <!--- #NAVBAR -->
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>About</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Resume</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Skills</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Projects</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Certifications</button>
+            </li>
+          </ul>
+        </nav>
+        <!-- navbar closed here -->
+
+        <!--- #ABOUT -->
+        <article class="about active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
+
+          <section class="about-text">
+            <p>
+              Highly motivated Full-Stack Web Developer always curious about
+              learning new things. A good leader and a good team player with
+              good problem solving skills.
+            </p>
+
+            <p>
+              <br />
+              - 🌱 I’m currently focusing on Advanced Javascript and practicing
+              Data Structures and Algorithms everyday. <br />
+              <br />
+              - 💬 I am seeking a role where I can utilize my skills to develop
+              impactful products for an organization that is committed to making
+              a difference in people's lives.<br />
+              <br />
+              - ⚡ Fun fact: There are 10 types of people in this world those
+              who understand binary and those who don't :)
+              <br />
+              <br />
+            </p>
+          </section>
+          <!--- #Service -->
+
+          <section class="service">
+            <h3 class="h3 service-title article-title">What i'm doing</h3>
+
+            <ul class="service-list">
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-dev.svg"
+                    alt="Web development icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">
+                    Full Stack Web Developer
+                  </h4>
+
+                  <p class="service-item-text">
+                    High-quality development of sites at the professional level.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-design.svg
+                "
+                    alt="design icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Web design</h4>
+
+                  <p class="service-item-text">
+                    The most modern and high-quality design made at a
+                    professional level.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <div class="modal-container" data-modal-container>
+            <div class="overlay" data-overlay></div>
+
+            <section class="testimonials-modal">
+              <button class="modal-close-btn" data-modal-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+
+              <div class="modal-img-wrapper">
+                <figure class="modal-avatar-box">
+                  <img src="" alt="pranshu singh" width="80" data-modal-img />
+                </figure>
+
+                <img src="./assets/images/icon-quote.svg" alt="quote icon" />
+              </div>
+
+              <div class="modal-content">
+                <h4 class="h3 modal-title" data-modal-title>Lokesh</h4>
+
+                <time datetime="2021-06-14">29 Aug, 2022</time>
+
+                <div data-modal-text>
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Aliquid similique quibusdam libero sed unde nemo sit
+                    molestias modi, voluptate culpa esse perspiciatis deserunt
+                    fugit obcaecati porro perferendis incidunt voluptatum? Ut
+                    alias eos eaque, nostrum suscipit delectus at neque saepe
+                    aliquam?
+                  </p>
+                </div>
+              </div>
+            </section>
+          </div>
+        </article>
+        <!-- About closed here -->
+
+        <!--- #RESUME-->
+        <article class="resume" data-page="resume">
+          <header>
+            <h2 class="h2 article-title">Resume</h2>
+          </header>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+              <h3 class="h3">View Resume</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <section class="skill">
+                <div class="skills">
+                  <a
+                    class="logo_div"
+                    href="./assets/resume/Lokesh_Rautela_Resume.pdf"
+                    target="_blank"
+                  >
+                    <img
+                      src="https://img.icons8.com/plasticine/100/null/contract-job.png"
+                      alt="SpringBoot logo"
+                      class="s-logo"
+                    />
+                    <h3 class="h3">Resume</h3>
+                  </a>
+                </div>
+              </section>
+            </ol>
+          </section>
+        </article>
+        <!-- Resume closed here -->
+
+        <!-- #Skills  -->
+        <article class="contact" data-page="skills">
+          <header>
+            <h2 class="h2 article-title">Skills</h2>
+          </header>
+          <section class="skill">
+            <div class="skills">
+              <a
+                class="logo_div"
+                href="https://www.geeksforgeeks.org/html5-introduction/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <img
+                  src="./assets/Skills-Logos/HTML-logo.svg"
+                  alt="html5 logo"
+                  class="s-logo"
+                />
+                <h3 class="h3">HTML 5</h3>
+              </a>
+
+              <a
+                class="logo_div"
+                href="https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/What_is_CSS"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <img
+                  src="./assets/Skills-Logos/CSS-logo.svg"
+                  alt="CSS logo"
+                  class="s-logo"
+                />
+                <h3 class="h3">CSS</h3>
+              </a>
+
+              <a
+                class="logo_div"
+                href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <img
+                  src="./assets/Skills-Logos/javaScript-logo.svg"
+                  alt="JavaScript logo"
+                  class="s-logo"
+                />
+                <h3 class="h3">Javascript</h3>
+              </a>
+
+              <a
+                class="logo_div"
+                href="https://legacy.reactjs.org/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <img
+                  src="./assets/Skills-Logos/react-logo.webp"
+                  alt="React logo"
+                  class="s-logo"
+                />
+                <h3 class="h3">React</h3>
+              </a>
+
+              <a
+                class="logo_div"
+                href="https://vuejs.org/guide/introduction.html"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <!-- <img
+                  src="./assets/Skills-Logos/vue-logo.webp"
+                  alt="Vue logo"
+                  class="s-logo"
+                />
+                <h3 class="h3">Vue</h3>
+              </a>
+
+              <a
+                class="logo_div"
+                href="https://www.mongodb.com/company/what-is-mongodb"
+                rel="noopener noreferrer"
+                target="_blank"
+              > -->
+                <img
+                  src="./assets/Skills-Logos/mongoDB-logo.svg"
+                  alt="SpringBoot logo"
+                  class="s-logo"
+                />
+                <h3 class="h3">MongoDB</h3>
+              </a>
+
+              <a
+                class="logo_div"
+                href="https://mongoosejs.com/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <img
+                  src="./assets/Skills-Logos/mongoose-logo.svg"
+                  alt="Mongoose logo"
+                  class="s-logo"
+                />
+                <h3 class="h3">Mongoose</h3>
+              </a>
+
+              <a
+                class="logo_div"
+                href="https://expressjs.com/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <img
+                  src="./assets/Skills-Logos/express2.png"
+                  alt="Express logo"
+                  class="s-logo"
+                />
+                <h3 class="h3">Express</h3>
+              </a>
+
+              <a
+                class="logo_div"
+                href="https://nodejs.org/en/about"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <img
+                  src="./assets/Skills-Logos/node-logo.png"
+                  alt="node logo"
+                  class="s-logo"
+                />
+                <h3 class="h3">Node</h3>
+              </a>
+
+              <a
+                class="logo_div"
+                href="https://docs.npmjs.com/about-npm"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <img
+                  src="./assets/Skills-Logos/npm-logo.png"
+                  alt="npm logo"
+                  class="s-logo"
+                />
+                <h3 class="h3">NPM</h3>
+              </a>
+
+              <a
+                class="logo_div"
+                href="https://restfulapi.net/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <img
+                  src="./assets/Skills-Logos/restAPI.png"
+                  alt="REST API Logo"
+                  class="s-logo"
+                />
+                <h3 class="h3">REST API</h3>
+              </a>
+
+              <a
+                class="logo_div"
+                href="https://git-scm.com/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <img
+                  src="./assets/Skills-Logos/git-logo.png"
+                  alt="Github logo"
+                  class="s-logo"
+                />
+                <h3 class="h3">Git</h3>
+              </a>
+            </div>
+          </section>
+
+          <br />
+
+          <h2 class="h2 service-title article-title">Tools</h2>
+
+          <section class="skill">
+            <div class="skills">
+              <a
+                class="logo_div"
+                href="https://code.visualstudio.com/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <img
+                  src="./assets/Tools-Logos/vs-code-logo.svg"
+                  alt="html5 logo"
+                  class="s-logo"
+                />
+                <h3 class="h3">VS Code</h3>
+              </a>
+
+              <a
+                class="logo_div"
+                href="https://github.com/pranshubisht9"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <img
+                  src="./assets/Tools-Logos/L_github.svg"
+                  alt="Github logo"
+                  class="s-logo"
+                />
+                <h3 class="h3">Github</h3>
+              </a>
+
+              <a
+                class="logo_div"
+                href="https://spring.io/projects/spring-framework"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <img
+                  src="./assets/Tools-Logos/postman-logo.png"
+                  alt="Spring logo"
+                  class="s-logo"
+                />
+                <h3 class="h3">Postman</h3>
+              </a>
+
+              <a
+                class="logo_div"
+                href="https://swagger.io/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <img
+                  src="./assets/Tools-Logos/swagger-logo.png"
+                  alt="CSS logo"
+                  class="s-logo"
+                />
+                <h3 class="h3">Swagger</h3>
+              </a>
+            </div>
+          </section>
+        </article>
+        <!-- Skills closed here -->
+
+        <!--- #Projects-->
+
+        <article class="portfolio" data-page="projects">
+          <header>
+            <h2 class="h2 article-title">Projects</h2>
+          </header>
+
+          <section class="projects">
+            <ul class="filter-list">
+              <li class="filter-item">
+                <button class="active" data-filter-btn>All</button>
+              </li>
+
+              <!-- <li class="filter-item">
+              <button data-filter-btn>Web design</button>
+            </li> -->
+
+              <li class="filter-item">
+                <button data-filter-btn>Applications</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Web development</button>
+              </li>
+            </ul>
+
+            <div class="filter-select-box">
+              <button class="filter-select" data-select>
+                <div class="select-value" data-selecct-value>
+                  Select category
+                </div>
+
+                <div class="select-icon">
+                  <ion-icon name="chevron-down"></ion-icon>
+                </div>
+              </button>
+            </div>
+
+            <ul class="project-list">
+              <!-- Project 1: GenZzz Clothing Website  -->
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="applications"
+              >
+                <a
+                  href="https://endearing-hummingbird-70d6b6.netlify.app/"
+                  target="_blank"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/Projects/GenZzz_Clothing.PNG"
+                      alt="GenZzz Clothing"
+                      loading="lazy"
+                      style="height: 126px !important"
+                    />
+                  </figure>
+                </a>
+
+                <div style="display: flex; justify-content: space-between">
+                  <h3 class="project-title">GenZzz</h3>
+                  <img
+                    height="25px"
+                    src="https://img.icons8.com/doodle/48/null/github--v1.png"
+                    onclick="genZzzClothing()"
+                    class="github-project"
+                  />
+                </div>
+
+                <p class="project-category">JavaScript Application</p>
+                <br />
+                <div class="project-description-info">
+                  GenZzz is a responsive clothing website designed to offer a
+                  seamless shopping experience for the younger generation. Users
+                  can browse, search, filter, sort, and add their favorite
+                  products to the cart with ease.
+                </div>
+
+                <div class="technology-stack">
+                  <h3>Technology Stack :</h3>
+                  MongoDB && Mongoose && Express js &&JavaScript && Node js &&
+                  NPM && Local Strage && Tailwind CSS && HTML
+                </div>
+              </li>
+              <!-- GenZzz closed here  -->
+
+              <!-- Project 2: ShopSphere E-Commerce Website  -->
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="applications"
+              >
+                <a
+                  href="https://fabulous-begonia-25b68e.netlify.app/"
+                  target="_blank"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/Projects/ShopSphere.PNG"
+                      alt="ShopSphere"
+                      loading="lazy"
+                      style="height: 126px !important"
+                    />
+                  </figure>
+                </a>
+
+                <div style="display: flex; justify-content: space-between">
+                  <h3 class="project-title">ShopSphere</h3>
+                  <img
+                    height="25px"
+                    src="https://img.icons8.com/doodle/48/null/github--v1.png"
+                    onclick="shopSphere()"
+                    class="github-project"
+                  />
+                </div>
+
+                <p class="project-category">JavaScript Application</p>
+
+                <br />
+                <div class="project-description-info">
+                  ShopSphere is a responsive and feature-rich e-commerce
+                  website, designed to offer a seamless shopping experience for
+                  users. Users can browse products, manage their cart and
+                  wishlist, filter, sort, apply discounts, and register for an
+                  account to enhance their shopping experience.
+                </div>
+
+                <div class="technology-stack">
+                  <h3>Technology Stack :</h3>
+                  JavaScript && JSON-Server && Local Storage && Tailwind CSS &&
+                  HTML
+                </div>
+              </li>
+              <!-- ShopSphere closed here  -->
+
+              <!-- Project 3: Bewakoof (Clone) Clothing Website  -->
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="applications"
+              >
+                <a href="" target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/Projects/Bewakoof.PNG"
+                      alt="BlueFly Clothing website"
+                      loading="lazy"
+                      style="height: 126px !important"
+                    />
+                  </figure>
+                </a>
+
+                <div style="display: flex; justify-content: space-between">
+                  <h3 class="project-title">Bewakoof (Clone)</h3>
+                  <img
+                    height="25px"
+                    src="https://img.icons8.com/doodle/48/null/github--v1.png"
+                    onclick="bewakoof()"
+                    class="github-project"
+                  />
+                </div>
+
+                <p class="project-category">JavaScript Application</p>
+
+                <br />
+                <div class="project-description-info">
+                  Bewakoof is a responsive clothing website designed to offer a
+                  seamless shopping experience for users. Users can browse,
+                  search, filter, sort, and add their favorite products to the
+                  cart with ease.
+                </div>
+
+                <div class="technology-stack">
+                  <h3>Technology Stack :</h3>
+                  JavaScript && Local Storage && CSS && HTML
+                </div>
+              </li>
+              <!-- BlueFlyclosed here  -->
+
+              <!-- Project 4: YouTube (Clone)  -->
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="" target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/Projects/YouTube clone.PNG"
+                      alt="orizon"
+                      loading="lazy"
+                    />
+                  </figure>
+                </a>
+                <div style="display: flex; justify-content: space-between">
+                  <h3 class="project-title">YouTube (Clone)</h3>
+                  <img
+                    height="25px"
+                    src="https://img.icons8.com/doodle/48/null/github--v1.png"
+                    onclick="youTube()"
+                    class="github-project"
+                  />
+                </div>
+
+                <p class="project-category">Web development</p>
+
+                <br />
+                <div class="project-description-info">
+                  My YouTube clone offers a streamlined video browsing
+                  experience, allowing users to search for any content available
+                  on YouTube and seamlessly watch videos. With an intuitive
+                  interface, users can easily discover their favorite videos,
+                  ensuring a smooth and efficient search and viewing process.
+                  <br />
+                  #key Point : Using Youtube Api, Making Fetch request for
+                  uploding videos and search functionality.
+                </div>
+                <div class="technology-stack">
+                  <h3>Technology Stack :</h3>
+                  JavaScript && Local Storage && CSS && HTML
+                </div>
+              </li>
+              <!-- YouTube (Clone) Closed here  -->
+
+              <!-- Project 5: Code Flux Blog website  -->
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a
+                  href="https://grand-cucurucho-d90797.netlify.app/"
+                  target="_blank"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/Projects/CodeFlux Blog Website.PNG"
+                      alt="orizon"
+                      loading="lazy"
+                    />
+                  </figure>
+                </a>
+                <div style="display: flex; justify-content: space-between">
+                  <h3 class="project-title">CodeFlux</h3>
+                  <img
+                    height="25px"
+                    src="https://img.icons8.com/doodle/48/null/github--v1.png"
+                    onclick="codeFlux()"
+                    class="github-project"
+                  />
+                </div>
+
+                <p class="project-category">Web development</p>
+
+                <br />
+                <div class="project-description-info">
+                  CodeFlux is a responsive Blog writing website designed to
+                  Transform a knowledge of Technology and Coding. Users can read
+                  others blog and write their blog also.
+                </div>
+                <div class="technology-stack">
+                  <h3>Technology Stack :</h3>
+
+                  JavaScript && Bootstrap && CSS && HTML
+                </div>
+              </li>
+
+              <!-- 4th project  -->
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a
+                  href="https://peppy-taffy-707c69.netlify.app/"
+                  target="_blank"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/Projects/StarsWars.PNG"
+                      alt="orizon"
+                      loading="lazy"
+                    />
+                  </figure>
+                </a>
+                <div style="display: flex; justify-content: space-between">
+                  <h3 class="project-title">Star War Search</h3>
+                  <img
+                    height="25px"
+                    src="https://img.icons8.com/doodle/48/null/github--v1.png"
+                    onclick="starWars()"
+                    class="github-project"
+                  />
+                </div>
+                <p class="project-category">Web development</p>
+                <!-- <div class="project-description" style="background-color: brown; height: 25px"> -->
+                <br />
+                <div class="project-description-info">
+                  Vanilla JS web app to Search for any Star Wars Character.
+                  Build with the help of Star Wars API and has the Classic UI
+                  (Color theme) of the original Star Wars Movie.
+                </div>
+                <div class="technology-stack">
+                  <h3>Technology Stack :</h3>
+                  HTML && CSS && JAVASCRIPT
+                </div>
+                <!-- </div> -->
+              </li>
+            </ul>
+          </section>
+        </article>
+        <!-- Projects closed here -->
+
+        <!--- #Certifications-->
+        <article class="blog" data-page="certifications">
+          <header>
+            <h2 class="h2 article-title">Certifications</h2>
+          </header>
+          <!-- HTML -->
+          <section class="blog-posts">
+            <ul class="blog-posts-list">
+              <li class="blog-post-item">
+                <a href="./assets/images/Certificate/HTML.pdf" target="_blank">
+                  <figure class="blog-banner-box">
+                    <img src="./assets/images/Certificate/HTMLIMG.JPG"
+                    alt="Introduction to HTML loading="lazy">
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">HTML</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2025-06-13">2025</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">Introduction to HTML</h3>
+
+                    <p class="blog-text">
+                      Successfully completed Introduction to HTML course from
+                      online platform.
+                    </p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+     
+          <!-- CSS  -->
+         
+            <ul class="blog-posts-list">
+              <li class="blog-post-item">
+                <a href="./assets/images/Certificate/CSS.pdf" target="_blank">
+                  <figure class="blog-banner-box">
+                    <img src="./assets/images/Certificate/CSSIMG.JPG"
+                    alt="Introduction to HTML loading="lazy">
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">CSS</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2025-06-25">2025</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">Introduction to CSS</h3>
+
+                    <p class="blog-text">
+                      Successfully completed Introduction to CSS course from
+                      online platform.
+                    </p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+       
+          <!-- JavaScript  -->
+          
+            <ul class="blog-posts-list">
+              <li class="blog-post-item">
+                <a href="./assets/images/Certificate/JavaScript.pdf" target="_blank">
+                  <figure class="blog-banner-box">
+                    <img src="./assets/images/Certificate/JavaScriptIMG.JPG"
+                    alt="Introduction to HTML loading="lazy">
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">JavaScript</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2025-06-19">2025</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">JavaScript for Beginners</h3>
+
+                    <p class="blog-text">
+                      Successfully completed JavaScript for Beginners course
+                      from online platform.
+                    </p>
+                  </div>
+                </a>
+              </li>
+            </ul>
     
-</body>
+          <!-- React  -->
+          
+            <ul class="blog-posts-list">
+              <li class="blog-post-item">
+                <a href="./assets/images/Certificate/React Beginners.pdf" target="_blank">
+                  <figure class="blog-banner-box">
+                    <img src="./assets/images/Certificate/ReactIMG.JPG"
+                    alt="Introduction to HTML loading="lazy">
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">ReactJS</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2025-06-25">2025</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">ReactJS for Beginners</h3>
+
+                    <p class="blog-text">
+                      Successfully completed ReactJS for Beginners course from
+                      online platform.
+                    </p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+   
+          <!-- Full Stack web development  -->
+         
+            <ul class="blog-posts-list">
+              <li class="blog-post-item">
+                <a href="./assets/images/Certificate/Full Stack Java Development.pdf" target="_blank">
+                  <figure class="blog-banner-box">
+                    <img src="./assets/images/Certificate/Full Stack IMG.JPG"
+                    alt="Started with Full Stack Development loading="lazy">
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Web Development</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2025-08-07">2025</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      Full Stack Development
+                    </h3>
+
+                    <p class="blog-text">
+                      Successfully completed Getting Started with Full Stack
+                      Java Development course from online platform.
+                    </p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+        <!-- Certifications closed here -->
+      </div>
+      <!-- .main-content closed here -->
+    </main>
+    <!-- main closed here -->
+    <!--- custom js link-->
+    <script src="./assets/js/script.js"></script>
+    <!--- ionicon link -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="./assets/js/ref.js"></script>
+  </body>
 </html>
