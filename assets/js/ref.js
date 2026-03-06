@@ -22,7 +22,7 @@ let youTube = () => {
 };
 
 let starWars = () => {
-  window.open("https://github.com/lokeshrautela99", "_blank");
+  window.open("https://github.com/lokeshrautela99/Star-Wars", "_blank");
 };
 
 
